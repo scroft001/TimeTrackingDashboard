@@ -1,4 +1,5 @@
 import './App.css';
+import { PersonCard } from './components';
 
 function App() {
   return (
