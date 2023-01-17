@@ -1,10 +1,10 @@
-import './App.css';
-import { PersonCard } from './components';
+import './App.scss';
+import { Dashboard } from './components';
 
 function App() {
   return (
     <div className="app">
-      <PersonCard />
+      <Dashboard />
     </div>
   );
 }
