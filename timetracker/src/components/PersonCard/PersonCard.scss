@@ -1,0 +1,32 @@
+.app__personCard{
+    width: 250px;
+    background-color: var(--Dark-blue);
+    border-radius: 20px;
+    color: white;
+}
+
+.app__personCard-profile{
+    background-color: var(--Blue);
+    border-radius: 20px;
+    padding: 2rem;
+    p{
+        font-weight: 400;
+        font-size: .8rem;
+        color: var(--Pale-Blue);
+    }
+    h1{
+        font-weight: 300;
+        font-size: 2rem;
+        margin-top: -.8rem;
+    }
+    img{
+        width: 40%;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.app__personCard-timeframe{
+    padding: 1rem 2rem;
+}
