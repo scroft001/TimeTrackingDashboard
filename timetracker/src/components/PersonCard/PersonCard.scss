@@ -3,6 +3,7 @@
     background-color: var(--Dark-blue);
     border-radius: 20px;
     color: white;
+    margin-right: 1rem;
 }
 
 .app__personCard-profile{
@@ -10,7 +11,7 @@
     border-radius: 20px;
     padding: 2rem;
     p{
-        font-weight: 400;
+        font-weight: 300;
         font-size: .8rem;
         color: var(--Pale-Blue);
     }
@@ -29,4 +30,8 @@
 
 .app__personCard-timeframe{
     padding: 1rem 2rem;
+}
+
+.active{
+    font-weight: 500;
 }

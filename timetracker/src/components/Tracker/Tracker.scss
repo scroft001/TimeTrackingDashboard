@@ -1,0 +1,41 @@
+.app__tracker{
+    width: 300px;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.app__tracker-stats{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: var(--Dark-blue);
+    color: white;
+    line-height: .3rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    h2, p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+}
+
+.hours{
+    font-size: 48px;
+}
+
+.past-hours{
+    font-size: 12px;
+    color: var(--Pale-Blue)
+}
