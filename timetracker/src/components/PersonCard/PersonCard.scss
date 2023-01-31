@@ -31,8 +31,13 @@
 
 .app__personCard-timeframe{
     padding: 1rem 2rem;
+    p:hover{
+        font-weight: 500;
+        cursor: pointer;
+    }
 }
 
 .active{
     font-weight: 500;
 }
+

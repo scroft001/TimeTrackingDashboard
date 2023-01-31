@@ -16,6 +16,10 @@
     background-color: var(--Dark-blue);
     color: white;
     line-height: .3rem;
+    &:hover{
+        background-color: var(--Desaturated-blue);
+        cursor: pointer;
+    }
 }
 
 .title{
@@ -27,6 +31,10 @@
     h2, p{
         font-size: 18px;
         font-weight: 400;
+    }
+    p:hover{
+        font-weight: 500;
+        cursor: pointer;
     }
     
 }
